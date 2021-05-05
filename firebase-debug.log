@@ -1,0 +1,98 @@
+[debug] [2021-05-05T20:27:58.413Z] ----------------------------------------------------------------------
+[debug] [2021-05-05T20:27:58.417Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-05T20:27:58.418Z] CLI Version:   9.10.0
+[debug] [2021-05-05T20:27:58.418Z] Platform:      win32
+[debug] [2021-05-05T20:27:58.418Z] Node Version:  v14.16.1
+[debug] [2021-05-05T20:27:58.420Z] Time:          Wed May 05 2021 23:27:58 GMT+0300 (Москва, стандартное время)
+[debug] [2021-05-05T20:27:58.420Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-05T20:27:58.432Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-05T20:27:58.433Z] > authorizing via signed-in user (otabekfozilov73@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\C_disk\react-projects\new-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using new-app. 
+[debug] [2021-05-05T20:28:06.653Z] > refreshing access token with scopes: []
+[debug] [2021-05-05T20:28:06.654Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-05T20:28:07.851Z] <<< HTTP RESPONSE 200 {"date":"Wed, 05 May 2021 18:28:03 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-05T20:28:07.930Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/new-app [none]
+[debug] [2021-05-05T20:28:08.870Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/new-app 403
+[debug] [2021-05-05T20:28:08.871Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/new-app {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-05-05T20:28:08.873Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-05-05T20:28:10.405Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project new-app. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-05-05T20:30:33.662Z] ----------------------------------------------------------------------
+[debug] [2021-05-05T20:30:33.666Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-05T20:30:33.667Z] CLI Version:   9.10.0
+[debug] [2021-05-05T20:30:33.667Z] Platform:      win32
+[debug] [2021-05-05T20:30:33.667Z] Node Version:  v14.16.1
+[debug] [2021-05-05T20:30:33.669Z] Time:          Wed May 05 2021 23:30:33 GMT+0300 (Москва, стандартное время)
+[debug] [2021-05-05T20:30:33.669Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-05T20:30:33.681Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-05T20:30:33.681Z] > authorizing via signed-in user (otabekfozilov73@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\C_disk\react-projects\new-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using new-app. 
+[debug] [2021-05-05T20:30:40.531Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/new-app [none]
+[debug] [2021-05-05T20:30:41.247Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/new-app 403
+[debug] [2021-05-05T20:30:41.248Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/new-app {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-05-05T20:30:41.248Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-05-05T20:30:41.627Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project new-app. Please make sure the project exists and your account has permission to access it.

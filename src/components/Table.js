@@ -4,15 +4,18 @@ import Table from "react-bootstrap/Table";
 function TableComponent({ products }) {
 
   const [result, setresult] = useState([]);
-  const [search, setsearch] = useState('');
+  const [search, setsearch] = useState("");
   const [onchange,setOnchange] = useState(false);
+
+
+
 
   useEffect(() => {
     const result = products.filter((p) =>
       p.name.toLowerCase().includes(search)
-    );
-    setresult(result);
-  }, [search]);
+    )
+     setresult(result);
+  },[search]);
   return (
     <div>
       <h1>Search</h1>
