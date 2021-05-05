@@ -1,0 +1,33 @@
+.container{
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: 400px auto;
+}
+
+form{
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.inputs{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+input{
+    margin-top:5px;
+    padding:7px;
+    border-radius: 4px;
+
+}
+button{
+    padding:3px;
+    margin-top: 5px;
+}
+.table{
+      margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
